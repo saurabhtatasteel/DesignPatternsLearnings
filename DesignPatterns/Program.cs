@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-//using DesignPatterns.AbstractFactoryPattern;
+﻿using DesignPatterns.Creational.Singleton;
+using System;
 
 namespace DesignPatterns
 {
@@ -11,11 +7,9 @@ namespace DesignPatterns
 	{
 		static void Main(string[] args)
 		{
-			//var factory = VehicleFactory.CreateVehicleFactory("car");
-			//var vehicle  = factory.CreateVehicle("Maruti");
-			//vehicle.ModelName = "Swift Dzire";
-			//Console.WriteLine(vehicle.ModelName);
+			// Singleton test invocation
+			SingletonClient.TestMethod();
 			Console.ReadLine();
 		}
-	}
+	}	
 }
