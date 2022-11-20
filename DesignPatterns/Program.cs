@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Creational.Builder;
+﻿using DesignPatterns.Behavioral.Decorator;
+using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Creational.Singleton;
 using System;
@@ -22,6 +23,11 @@ namespace DesignPatterns
 
 			// Builder test invocation
 			BuilderClient.TestClient();
+
+			Console.WriteLine("-------Decorator invocation test-------------");
+
+			// Decorator test invocation
+			DecoratorClient.TestClient();
 
 			Console.ReadLine();
 		}

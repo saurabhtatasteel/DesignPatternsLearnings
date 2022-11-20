@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Behavioral.Decorator
+﻿namespace DesignPatterns.Behavioral.Decorator
 {
-    /// <summary>
-    /// Paneer pizza decorator
-    /// </summary>
-    public class PaneerPizzaDecorator : BasePizzaDecorator
+	/// <summary>
+	/// Paneer pizza decorator
+	/// </summary>
+	public class PaneerPizzaDecorator : BasePizzaDecorator
     {
 
         IBasePizza _basePizza;
