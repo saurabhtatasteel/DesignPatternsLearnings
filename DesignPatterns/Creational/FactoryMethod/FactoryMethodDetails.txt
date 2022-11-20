@@ -8,3 +8,6 @@ But implementing it in a single class would break the 'O' principle of SOLID bec
 Due to this, every product creation responsiblity should be handled by the respective product's factory. In our example, we have different Factory classes for the respective products.
 
 FactoryMethodClient demonstrates the way client can instantiate the particular product to make use of it.
+
+
+https://www.dotnettricks.com/learn/designpatterns/chain-of-responsibility-design-pattern-dotnet
