@@ -1,0 +1,10 @@
+﻿
+Suppose there is a creditcard product which needs to be built. There are multiple CreditCards to be built. Who should hold the responsibility to create creditCard product.
+
+CreditCard product creation should not be done by client and indeed it should be designated to a different source for creating a product based on client demand.
+For achieving this, we can have a class in which there can be multiple switch cases based on which the product can be created.
+But implementing it in a single class would break the 'O' principle of SOLID because in future if a new product would come then logic of creating that new product will have to be included there in the same class.
+
+Due to this, every product creation responsiblity should be handled by the respective product's factory. In our example, we have different Factory classes for the respective products.
+
+FactoryMethodClient demonstrates the way client can instantiate the particular product to make use of it.

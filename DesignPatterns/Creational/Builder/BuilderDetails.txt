@@ -1,0 +1,17 @@
+﻿
+Builder pattern falls under the category of Creational design pattern. Builder pattern builds a complex object by using a step by step approach. Builder Interface defines the steps/methods
+to build the final product. This builder is independent of the object creation process.
+There are four entities in it - 
+	Builder - An interface that lists the steps to create an object (IMenuBuilder)
+	Director - That directs what to do in steps (Director)
+	Product/Object - The final object or product to be created (Menu)
+	ConcreteBuilder classes - This class actually keeps the actual logic to create the specific product. (Menu1Builder)
+
+	Client - It makes use of director to ask for object creation process.
+
+
+When to use this?
+
+When we need to create a complex object in several steps (step by step approach)
+
+
