@@ -2,6 +2,7 @@
 using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Creational.Singleton;
+using DesignPatterns.Structural.Strategy;
 using System;
 
 namespace DesignPatterns
@@ -28,6 +29,11 @@ namespace DesignPatterns
 
 			// Decorator test invocation
 			DecoratorClient.TestClient();
+
+			Console.WriteLine("-------Strategy invocation test-------------");
+
+			// Strategy test invocation
+			StrategyClient.TestClient();
 
 			Console.ReadLine();
 		}

@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Structural.Strategy
+﻿namespace DesignPatterns.Structural.Strategy
 {
-    public class StrategyClient
+	public static class StrategyClient
     {
-        public void Test()
+        public static void TestClient()
         {
             CompressionStrategy compressionStrategy = new CompressionStrategy(new ZipCompression());
             compressionStrategy.Compress("zipfile");
