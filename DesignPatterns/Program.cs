@@ -3,6 +3,7 @@ using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Creational.Singleton;
 using DesignPatterns.Structural.Strategy;
+using DesignPatterns.Structural.Template;
 using System;
 
 namespace DesignPatterns
@@ -34,6 +35,11 @@ namespace DesignPatterns
 
 			// Strategy test invocation
 			StrategyClient.TestClient();
+
+			Console.WriteLine("-------TemplateMethod invocation test-------------");
+
+			// Template Method test invocation
+			TemplateMethodClient.TestClient();
 
 			Console.ReadLine();
 		}
