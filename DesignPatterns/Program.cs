@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Creational.FactoryMethod;
+﻿using DesignPatterns.Creational.Builder;
+using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Creational.Singleton;
 using System;
 
@@ -16,6 +17,11 @@ namespace DesignPatterns
 
 			// Factory method test invocation
 			FactoryMethodClient.TestClient();
+
+			Console.WriteLine("-------Builder invocation test-------------");
+
+			// Builder test invocation
+			BuilderClient.TestClient();
 
 			Console.ReadLine();
 		}
