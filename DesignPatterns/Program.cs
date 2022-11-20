@@ -4,6 +4,7 @@ using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Creational.Singleton;
 using DesignPatterns.Structural.Strategy;
 using DesignPatterns.Structural.Template;
+using DesignPatterns.Structural.Adapter;
 using System;
 
 namespace DesignPatterns
@@ -40,6 +41,13 @@ namespace DesignPatterns
 
 			// Template Method test invocation
 			TemplateMethodClient.TestClient();
+
+			Console.WriteLine("-------Adapter invocation test-------------");
+
+			// Adapter test invocation
+			ITarget target = new Adapter();
+			AdapterClient adapterClient = new AdapterClient(target);
+			adapterClient.MakeRequest();
 
 			Console.ReadLine();
 		}

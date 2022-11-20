@@ -1,0 +1,17 @@
+﻿Adapter pattern acts as a bridge between two incompatible interfaces. This pattern involves a single class called adapter which is responsible for communication between two independent or incompatible interfaces.
+
+For Example: A card reader acts as an adapter between a memory card and a laptop. You plugins the memory card into card reader and card reader into the laptop so that memory card can be read via laptop.
+
+The classes, interfaces, and objects used are as follows:
+
+ITarget
+This is an interface which is used by the client to achieve its functionality/request.
+
+Adapter
+This is a class which implements the ITarget interface and inherits the Adaptee class. It is responsible for communication between Client and Adaptee.
+
+Adaptee
+This is a class which has the functionality, required by the client. However, its interface is not compatible with the client.
+
+Client
+This is a class which interacts with a type that implements the ITarget interface. However, the communication class called adaptee, is not compatible with the client

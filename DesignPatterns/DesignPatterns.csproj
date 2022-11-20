@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Adapter\Adaptee.cs" />
+    <Compile Include="Structural\Adapter\Adapter.cs" />
+    <Compile Include="Structural\Adapter\Client.cs" />
+    <Compile Include="Structural\Adapter\ITarget.cs" />
     <Compile Include="Structural\Decorator\BasePizza.cs" />
     <Compile Include="Structural\Decorator\BasePizzaDecorator.cs" />
     <Compile Include="Structural\Decorator\DecoratorClient.cs" />
@@ -93,6 +97,7 @@
   <ItemGroup>
     <Content Include="Creational\Builder\BuilderDetails.txt" />
     <Content Include="Creational\FactoryMethod\FactoryMethodDetails.txt" />
+    <Content Include="Structural\Adapter\AdapterPattern.txt" />
     <Content Include="Structural\Strategy\StrategyPattern.txt" />
     <Content Include="Behavioral\TemplateMethod\TemplateMethod.txt" />
   </ItemGroup>
@@ -103,7 +108,6 @@
     <Folder Include="Behavioral\Observer\" />
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Creational\Prototype\" />
-    <Folder Include="Structural\Adapter\" />
     <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Proxy\" />
   </ItemGroup>
