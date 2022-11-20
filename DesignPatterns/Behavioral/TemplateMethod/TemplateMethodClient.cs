@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Structural.Template
+﻿namespace DesignPatterns.Structural.Template
 {
-    public class TemplateMethodClient
+	public static class TemplateMethodClient
     {
 
-        public void Test()
+        public static void TestClient()
         {
             HouseBuilderTemplate houseBuilderTemplate = new ConcreteHouseBuilder();
             houseBuilderTemplate.Build();
