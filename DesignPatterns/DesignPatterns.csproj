@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\Prototype\PrototypeClient.cs" />
+    <Compile Include="Creational\Prototype\StudentDeepClonePrototype.cs" />
+    <Compile Include="Creational\Prototype\StudentShallowClonePrototype.cs" />
+    <Compile Include="Creational\Prototype\IPrototype.cs" />
     <Compile Include="Structural\Adapter\Adaptee.cs" />
     <Compile Include="Structural\Adapter\Adapter.cs" />
     <Compile Include="Structural\Adapter\Client.cs" />
@@ -97,6 +101,7 @@
   <ItemGroup>
     <Content Include="Creational\Builder\BuilderDetails.txt" />
     <Content Include="Creational\FactoryMethod\FactoryMethodDetails.txt" />
+    <Content Include="Creational\Prototype\Prototype.txt" />
     <Content Include="Structural\Adapter\AdapterPattern.txt" />
     <Content Include="Structural\Strategy\StrategyPattern.txt" />
     <Content Include="Behavioral\TemplateMethod\TemplateMethod.txt" />
@@ -107,7 +112,6 @@
     <Folder Include="Behavioral\Mediator\" />
     <Folder Include="Behavioral\Observer\" />
     <Folder Include="Behavioral\Strategy\" />
-    <Folder Include="Creational\Prototype\" />
     <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Proxy\" />
   </ItemGroup>
