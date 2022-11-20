@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Creational.Builder
+﻿namespace DesignPatterns.Creational.Builder
 {
-    public class Menu1Builder : IMenuBuilder
+	public class Menu1Builder : IMenuBuilder
     {
 
         Menu menu = new Menu();

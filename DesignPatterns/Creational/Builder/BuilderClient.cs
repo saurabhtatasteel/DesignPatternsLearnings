@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DesignPatterns.Creational.Builder
 {
-    public class BuilderClient
+	public static class BuilderClient
     {
-        public void TestClient()
+        public static void TestClient()
         {
             Director director = new Director(new Menu1Builder());
             director.CreateMenuProducts();

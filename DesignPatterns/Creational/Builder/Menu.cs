@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Creational.Builder
+﻿namespace DesignPatterns.Creational.Builder
 {
-    public class Menu
+	public class Menu
     {
         public string FoodItems { get; set; }
         public string UOMs { get; set; }
