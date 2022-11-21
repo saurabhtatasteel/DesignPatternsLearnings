@@ -1,0 +1,4 @@
+﻿
+SOLID, GRASP, and Other Basic Principles of Object-Oriented Design
+
+https://dzone.com/articles/solid-grasp-and-other-basic-principles-of-object-o
