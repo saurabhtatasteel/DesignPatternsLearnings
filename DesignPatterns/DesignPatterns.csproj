@@ -92,6 +92,7 @@
     <Content Include="Creational\Builder\BuilderDetails.txt" />
     <Content Include="Creational\FactoryMethod\FactoryMethodDetails.txt" />
     <Content Include="Creational\Prototype\Prototype.txt" />
+    <Content Include="LearningsLink.txt" />
     <Content Include="Structural\Adapter\AdapterPattern.txt" />
     <Content Include="Behavioral\Strategy\StrategyPattern.txt" />
     <Content Include="Behavioral\TemplateMethod\TemplateMethod.txt" />
