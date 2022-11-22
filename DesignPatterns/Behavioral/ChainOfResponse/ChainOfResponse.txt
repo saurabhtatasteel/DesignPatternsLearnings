@@ -1,0 +1,2 @@
+﻿
+The chain of responsibility pattern is used to process a list or chain of various types of request and each of them may be handled by a different handler. This pattern decouples sender and receiver of a request based on the type of request.
