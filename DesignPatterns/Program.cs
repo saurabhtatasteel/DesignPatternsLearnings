@@ -1,12 +1,12 @@
 ﻿using DesignPatterns.Behavioral.Decorator;
 using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.FactoryMethod;
+using DesignPatterns.Creational.Prototype;
 using DesignPatterns.Creational.Singleton;
+using DesignPatterns.Structural.Adapter;
 using DesignPatterns.Structural.Strategy;
 using DesignPatterns.Structural.Template;
-using DesignPatterns.Structural.Adapter;
 using System;
-using DesignPatterns.Creational.Prototype;
 
 namespace DesignPatterns
 {
